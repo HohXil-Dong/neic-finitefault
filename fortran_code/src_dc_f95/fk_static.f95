@@ -106,7 +106,7 @@ contains
 !   complex :: summ(9,ndis,nt)
 !   allocate(summ(9,ndis,nt))
 
-   call omp_set_num_threads(8)
+   call omp_set_num_threads(32)
    dynamic = .TRUE.
    nCom = 9
 !       sequence 1   2   3  4    5   6   7   8

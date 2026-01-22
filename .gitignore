@@ -3,8 +3,8 @@
 
 # external inputs
 fd_bank
-LITHO1.0.nc
-tectonicplates
+#LITHO1.0.nc
+#tectonicplates
 
 # python files
 __pycache__
@@ -23,7 +23,7 @@ green_tele
 get_strong_motion
 gf_static_f95
 green_bank_openmp_f95
-config.ini
+#config.ini
 
 # tutorial
 examples/*

@@ -52,8 +52,8 @@ contains
 !
    implicit none
    logical :: auto
-   threads = 4
-   if (auto) threads = 3
+   threads = 24
+   if (auto) threads = 12
    call omp_set_num_threads(threads)
    end subroutine n_threads
 

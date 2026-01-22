@@ -109,7 +109,7 @@ contains
    complex data1(nt), kahan_y(9, ndis), kahan_t(9, ndis), kahan_c(9, ndis)
    allocate(summ(9,ndis,nt))
 
-   call omp_set_num_threads(48)
+   call omp_set_num_threads(32)
    write(0,*)'Compute near field GF at fixed depth...'
    dynamic = .TRUE.
    nCom = 9
